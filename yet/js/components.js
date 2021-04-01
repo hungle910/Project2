@@ -367,7 +367,7 @@ components.billyBat.chap3 = `
 `;
 
 
-components.OyasumiPunpun.chap3 = `
+components.OyasumiPunpun.chap1 = `
 
 <Main>
 <a class="thanhchon" id = "signIn" >Sign in</a>
@@ -391,27 +391,36 @@ components.OyasumiPunpun.chap3 = `
 
 
 
-<div id="chap1"><img src="../img/billy bat/Billy Bat chap 3/001.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/003.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/004.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/005.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/006.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/007.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/008.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/009.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/010.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/011.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/012.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/013.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/014.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/015.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/016.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/017.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/018.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/019.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/020.jpg" alt="">
-<img src="../img/billy bat/Billy Bat chap 3/021.jpg" alt="">
-
-
-</div>
+<div id="chap1"><img src="../img/punpun/chap1/001-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/002-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/003-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/004-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/005-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/006-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/007-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/008-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/009-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/010-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/011-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/012-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/013-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/014-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/015-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/016-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/017-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/018-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/019-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/020-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/021-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/022-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/023-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/024-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/025-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/026-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/027-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/028-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/029-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/030-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/031-fix.jpg" alt="">
+    <img src="../img/punpun/chap1/032-fix.jpg" alt="">
 `;

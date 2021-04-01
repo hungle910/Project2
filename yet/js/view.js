@@ -113,7 +113,16 @@ view.setActiveScreen = (screenName) => {
       document.getElementById("app").innerHTML = components.chatScreen; billyBatChap1
       document.getElementById("welcome-user").innerText = 'Welcome to ' + model.currentUser.displayName;
       break;
+   
 
+
+      case "homeScreen":
+      console.log(view);
+      document.getElementById("app").innerHTML = components.OyasumiPunpun.chap1;
+      document.getElementById('punpun').addEventListener('click', () => {
+        view.billyBat.chapter('chap1');
+      })
+      break;
 
   }
 };

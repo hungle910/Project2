@@ -51,4 +51,11 @@ a {
 .thanhchon:hover {
   background-color: blue;
 }
-
+#thanhchon{
+  color: White;
+  text-decoration: none;
+  background-color:darkblue;
+  padding-left: 70px;
+  padding-right: 70px;
+  
+}

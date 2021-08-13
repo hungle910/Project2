@@ -1,17 +1,7 @@
 
 
 
-.comic img{
-    width: 250px;
-    height: 300px;
-}
-.comic{
-    background-color: white;
-    text-align: center;  
-    display: inline-block;  
-    width: 250px;
-    margin: 50px 50px 50px 80px;
-}
+
  
 a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -27,7 +17,28 @@ h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
 }
-
+.thanhchon {
+  
+  
+    color: White;
+    text-decoration: none;
+    background-color:purple;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+  }
+  .thanhchon:hover {
+    background-color: blue;
+  }
+  #thanhchon{
+    color: White;
+    text-decoration: none;
+    background-color:darkblue;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+  }
+  
 
 
 

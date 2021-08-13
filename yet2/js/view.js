@@ -1,7 +1,33 @@
 const view = {};
 view.billyBat = {};
 let temp;
-  
+
+function changeChap() {
+  const changeChap = document.getElementById('changeChap');
+  changeChap.addEventListener('submit', change = (e) => {
+    e.preventDefault();
+    const chapterName = {
+      chap: changeChap.chap.value
+    }
+    console.log(chapterName.chap);
+    console.log(changeChap);
+
+
+    if (chapterName.chap == 1) {
+
+      view.billyBat.chapter('chap1');
+    }
+    else if (chapterName.chap == 2) {
+      view.billyBat.chapter('chap2');
+    }
+
+    if (chapterName.chap == 3) {
+      view.billyBat.chapter('chap3');
+    }
+    console.log("this one");
+    
+  });
+}
 
 function navBar(){
   const signIn= document.getElementById("signIn");
@@ -9,15 +35,19 @@ function navBar(){
   const signUp =document.getElementById("signUp")
   const about =document.getElementById("about")
   
+  
 
 signIn.addEventListener("click",()=>{
   view.setActiveScreen('loginScreen');
 })
- 
+
+
 home.addEventListener("click",()=>{
   view.setActiveScreen('homeScreen');
-}
-)
+
+
+})
+
 
 
 }
@@ -28,9 +58,7 @@ view.billyBat.chapter = (chapter) => {
     case "chap1":
       document.getElementById("app").innerHTML = components.billyBat.chap1;
       changeChap();
-      navBar()
-     
-        
+      navBar();
 
 
       break;
@@ -38,11 +66,19 @@ view.billyBat.chapter = (chapter) => {
     case "chap2":
       document.getElementById("app").innerHTML = components.billyBat.chap2;
       console.log(temp);
-      changeChap()
-      
-      // console.log(chapterName.chap);
-      // changeChap = document.getElementById('changeChap');
-      // console.log(changeChap);
+      changeChap();
+      navBar();
+     
+      break;
+
+
+      case "chap3":
+      document.getElementById("app").innerHTML = components.billyBat.chap3;
+      console.log(temp)
+      changeChap();
+      navBar();
+
+
       break;
   }
 }
@@ -107,26 +143,15 @@ view.setActiveScreen = (screenName) => {
         });
       break;
 
+     
+
 
     // viết thêm phần này vào cho anh
     case "chatScreen":
       document.getElementById("app").innerHTML = components.chatScreen; billyBatChap1
       document.getElementById("welcome-user").innerText = 'Welcome to ' + model.currentUser.displayName;
       break;
-   
 
-
-      case "homeScreen":
-      console.log(view);
-      document.getElementById("app").innerHTML = components.OyasumiPunpun.chap1;
-      document.getElementById('punpun').addEventListener('click', () => {
-        view.billyBat.chapter('chap1');
-      })
-      break;
 
   }
 };
-
-function chapterName(chapterName) {
-  console.log(chapterName);
-}

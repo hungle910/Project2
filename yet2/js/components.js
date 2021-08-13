@@ -1,33 +1,39 @@
 const components = {};
 components.homeScreen = `
 <Main>
-<link rel="stylesheet" href="../css/home.css">
-<a class="thanhchon" id="home" >Home</a>
-<a class="thanhchon" id="signIn">Sign In</a>
-<a class="thanhchon" id="signUp">Sign Up</a>
-<a class="thanhchon" id="about">about</a>
+<h1 style="color: white; font-family: 'Dela Gothic One', cursive;margin-left: 10px;margin-right: 10px;">WEB COMIC</h1>
+<a class="thanhchon">Sign in</a>
+<a class="thanhchon">Home</a>
+<a class="thanhchon">about</a>
+<a class="thanhchon">Contacts</a>
 </Main>
 <Header>
 
-<div class="comic">
-    <img src="../img/menu/917IJDfk36L.jpg" alt="...">
+<div class="sanpham">
+   <a id="punpun"> <img src="../img/menu/917IJDfk36L.jpg" alt="..."></a>
     <h3> Goodnight Pun Pun </h3>
-    <div id="test"> <a href="">
-        <p>Read online</p>
-    </a> </div>
-</div>
-
-<div class="comic">
-    <a id="billyBat"> <img src="../img/menu/Billy_bat_first_cover.jpg" alt="..."></a>
-    <h3>Billy Bat</h3>
     <a href="">
         <p>Read online</p>
     </a>
 </div>
 
+<div class="sanpham">
+    <a id="billyBat"> <img src="../img/menu/Billy_bat_first_cover.jpg" alt="..."></a>
+    <h3>Billy Bat</h3>
+    <a >
+        <p>Read online</p>
+    </a>
+</div>
 
+<div class="sanpham">
+    <img src="../img/menu/Edogawa-Ranpo-Ijinkan-Dị-Nhân-Quán-Truyenz.info_.jpg" alt="...">
+    <h3>Edogawa Ranpo</h3>
+    <a href="">
+        <p>Read online</p>
+    </a>
+</div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/Sun_ken_rock_v01.jpg" alt="..">
     <h3>Sun ken Rock</h3>
     <a href="">
@@ -35,7 +41,7 @@ components.homeScreen = `
     </a>
 </div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/220px-JoJo_no_Kimyou_na_Bouken_cover_-_vol1.jpg" alt="..">
     <h3>Jojo's Bizzare Adventure</h3>
     <a href="">
@@ -43,7 +49,7 @@ components.homeScreen = `
     </a>
 </div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/81qPzeEO5IL.jpg" alt="..">
     <h3>Attack On Titan</h3>
     <a href="">
@@ -53,7 +59,7 @@ components.homeScreen = `
 
 
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/914W2qCP5ML.jpg" alt="...">
     <h3> Blue Period </h3>
     <a href="">
@@ -61,7 +67,7 @@ components.homeScreen = `
     </a>
 </div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/images.jpg" alt="...">
     <h3>Darwin's Game</h3>
     <a href="">
@@ -69,7 +75,7 @@ components.homeScreen = `
     </a>
 </div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/91F15VTNFFL.jpg" alt="...">
     <h3>20th Centuries Boy</h3>
     <a href="">
@@ -77,7 +83,7 @@ components.homeScreen = `
     </a>
 </div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/91NxYvUNf6L.jpg" alt="..">
     <h3>One Piece</h3>
     <a href="">
@@ -85,7 +91,7 @@ components.homeScreen = `
     </a>
 </div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/51BucomQlHL._SX333_BO1,204,203,200_.jpg" alt="..">
     <h3>Naruto</h3>
     <a href="">
@@ -93,7 +99,7 @@ components.homeScreen = `
     </a>
 </div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/51HW0wQziGL.jpg" alt="..">
     <h3>Fullmetal Alchemist</h3>
     <a href="">
@@ -102,7 +108,7 @@ components.homeScreen = `
 </div>
 
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/51LTUxBdvzL.jpg" alt="..">
     <h3>Gintama</h3>
     <a href="">
@@ -110,7 +116,7 @@ components.homeScreen = `
     </a>
 </div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/51muOXJRRgL.jpg" alt="..">
     <h3>Hunter X Hunter</h3>
     <a href="">
@@ -118,18 +124,9 @@ components.homeScreen = `
     </a>
 </div>
 
-<div class="comic">
+<div class="sanpham">
     <img src="../img/menu/911WCm5-xyL.jpg" alt="..">
     <h3>Fairy Tail</h3>
-    <a href="">
-        <p>Read online</p>
-    </a>
-</div>
-
-
-<div class="comic">
-    <img src="../img/menu/Edogawa-Ranpo-Ijinkan-Dị-Nhân-Quán-Truyenz.info_.jpg" alt="...">
-    <h3>Edogawa Ranpo</h3>
     <a href="">
         <p>Read online</p>
     </a>
@@ -145,79 +142,77 @@ components.homeScreen = `
 
 </div>
 `;
-components.registerScreen =`
-<link rel="stylesheet" href="../css/register.css">
-<header>
-    <div class="input-name-wrapper">
-        <div class="input-wrapper">
 
-           <H1>register</H1>
-
-          <input class="input" type="text" name="firstName" placeholder="First name" />
-          <div class="error" id="first-name-error"></div>
-        </div>
-        <div class="input-wrapper">
-          <input class="input" type="text" name="lastName" placeholder="Last name" />
-          <div class="error" id="last-name-error"></div>
-        </div>
-      </div>
-      
-      <div class="input-wrapper">
-        <input class="input" type="email" name="email" placeholder="Email..." />
-        <div class="error" id="email-error"></div>
-      </div>
-      <div class="input-wrapper">
-        <input class="input"
-          type="password"
-          name="password"
-          placeholder="Please input your password"
-        />
-        <div class="error" id="password-error"></div>
-      </div>
-      <div class="input-wrapper">
-        <input class="input"
-          type="password"
-          name="confirmPassword"
-          placeholder="Please input your password again"
-        />
-        <div class="error" id="confirm-password-error"></div>
-      </div>
-  
-  <div class="form-action">
-    <span class="cursor-pointer" id="redirect-to-register">
-      Already have an account? <a href="../html/login.html">login</a>
-    </span> <br>
-    <button class="btn" type="submit">register</button>
-  </div>
-    </form>
-</Header>`
 
 components.loginScreen = `
+<Header> 
 <link rel="stylesheet" href="../css/login.css">
-              <Header>
-                <H1 >Login</H1>
-                <form action="#">
-                    <div class="input-wrapper">
-                    <input class="email" type="text" placeholder="Username"></div>
-                    <div class="error" id="email-error"></div>
-              </div>
-                    <div class="input-wrapper">
-                    <input class="password" type="password" placeholder="password"></div>
-                    <div class="error" id="password-error"></div>
-              </div>
-              <div class="form-action">
-                  
-                <button class="btn" type="submit">Login</button>
-              </div>
 
-              <span class="cursor-pointer" id="redirect-to-register">
-                Don't have an account? register 
-              </span>  
-                </form>
-            </Header>
-        </form>
+
+<H1 >Login</H1>
+<form action="#">
+    <div class="input-wrapper">
+    <input class="email" type="text" placeholder="Username"></div>
+    <div class="error" id="email-error"></div>
+</div>
+    <div class="input-wrapper">
+    <input class="password" type="password" placeholder="password"></div>
+    <div class="error" id="password-error"></div>
+</div>
+<div class="form-action">
+<button class="btn" type="submit">Login</button> <br>
+<span class="cursor-pointer" id="redirect-to-register">
+  Don't have an account? register 
+</span> <br>
+
+</div>
+</form>
+</Header>
+</form>
+</Header>
 
 `;
+
+components.registerScreen = `
+<header>
+<link rel="stylesheet" href="../css/register.css">
+      <h1>Register</h1>
+    <div class="input-name-wrapper">
+      <div class="input-wrapper">
+        <input class="input" type="text" name="firstName" placeholder="First name" />
+        <div class="error" id="first-name-error"></div>
+      </div>
+      <div class="input-wrapper">
+        <input class="input" type="text" name="lastName" placeholder="Last name" />
+        <div class="error" id="last-name-error"></div>
+      </div>
+    </div>
+
+    <div class="input-wrapper">
+      <input class="input" type="email" name="email" placeholder="Email..." />
+      <div class="error" id="email-error"></div>
+    </div>
+    <div class="input-wrapper">
+      <input class="input" type="password" name="password" placeholder="Please input your password" />
+      <div class="error" id="password-error"></div>
+    </div>
+    <div class="input-wrapper">
+      <input class="input" type="password" name="confirmPassword" placeholder="Please input your password again" />
+      <div class="error" id="confirm-password-error"></div>
+    </div>
+
+    <div class="form-action">
+    <button class="btn" type="submit">register</button><br>
+      <span class="cursor-pointer" id="redirect-to-register">
+        Already have an account? login</a>
+      </span> 
+      
+    </div>
+    </form>
+  </Header>
+  `;
+
+
 components.billyBat = {};
 
 
@@ -315,9 +310,10 @@ components.billyBat.chap2 = `
 <img src="../img/billy bat/Billy Bat chap 2/021.jpg" alt="">
 <img src="../img/billy bat/Billy Bat chap 2/022.jpg" alt="">
 
+
+
 </div>
 `;
-
 components.billyBat.chap3 = `
 
 <Main>
@@ -364,10 +360,59 @@ components.billyBat.chap3 = `
 <img src="../img/billy bat/Billy Bat chap 3/021.jpg" alt="">
 
 
+
 </div>
 `;
+components.billyBat.chap4 = `
+
+<Main>
+<a class="thanhchon" id = "signIn" >Sign in</a>
+<a class="thanhchon" id="home"  >Home</a>
+<a class="thanhchon" id="about">about</a>
+<a class="thanhchon" id="contacts">Contacts</a>
+</Main>
+
+<div id="thanhchuyenchap">
+<span>
+<form id="changeChap">
+<select name="chap" id="#">
+<option value="1">Chap 1</option>
+<option value="2">Chap 2</option>
+<option value="3">Chap 3</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+ </span>
+</div>
 
 
+
+<div id="chap1"><img src="../img/billy bat/Billy Bat chap 4/001-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/002-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/003-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/004-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/005-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/006-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/007-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/008-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/009-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/010-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/011-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/012-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/013-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/014-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/015-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/016-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/017-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/018-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/019-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/020-fix.jpg" alt="">
+<img src="../img/billy bat/Billy Bat chap 4/021-fix.jpg" alt="">
+
+
+
+</div>
+`;
 components.OyasumiPunpun.chap1 = `
 
 <Main>

@@ -4,29 +4,16 @@
   margin-right: 200px;
 }
 #thanhchuyenchap {
-  margin-top: 0px;
-  margin: 100px 500px ;
+  
+  margin: 100px 300px ;
   color: green;
   /* margin-left: 600px; */
   /* position: fixed; */
   background-color: grey;
-  padding: 10px; 
-  position: fixed;
+  padding: 10px;
 }
 select {
   width: 150px;
-}
-
-.comic img{
-  width: 250px;
-  height: 300px;
-}
-.comic{
-  background-color: white;
-  text-align: center;  
-  display: inline-block;  
-  width: 250px;
-  margin: 50px 50px 50px 80px;
 }
 /* img{
     width: auto;
